@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+body,h1,h2,h3{
+    margin:0;
+}
+body{
+    height: 100%;
+    display: grid;
+    grid-template-rows:50px 1fr 50px;
+}
+header{
+    background-color: blue;
+    flex-basis: 50px;
+}
+main{
+    background-color: rgb(146, 155, 167);
+    flex-grow: 1;
+}
+footer{
+    background-color: green;
+    flex-basis: 50px;
+}
