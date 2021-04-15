@@ -12,7 +12,7 @@ body {
     background-color: #f1f1f1;
     width: 100%;
     text-align: center;
-    line-height: 75px;
+   
     font-size: 30px;
   }
 
@@ -25,29 +25,40 @@ body {
 
 #header {
     background-color: turquoise;
+    line-height: 70px;
 }
 
 #feature1 {
     background: orange;
     flex-basis: 33%;
+    line-height: 100px;
   
 }
 
 #feature2 {
     background: blueviolet;
     flex-basis: 33%;
+    line-height: 100px;
  
 }
 
 #feature3 {
     background: tomato;
     flex-basis: 33%;
+    line-height: 100px;
   
 }
 
 #sign-up {
     background-color: lightblue;
+    line-height: 50px;
 }
 #content {
     background-color:lightcyan;
+    line-height: 70px;
+}
+#empty{
+    background-color: blue;
+    color: blue;
+    line-height: 50px;
 }

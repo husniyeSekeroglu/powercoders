@@ -1,0 +1,58 @@
+body {
+    background-color: whitesmoke;
+   
+}
+.page-container {
+    display: grid;
+    grid-template-rows: 5% 25% 30% 15% 25%;
+   
+  }
+ 
+#feature{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.page-container > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+  }
+
+#feature {
+   
+    background-color: yellow;
+}
+
+#header {
+    background-color: turquoise;
+}
+
+#feature1 {
+    background: orange;
+ 
+  
+}
+
+#feature2 {
+    background: blueviolet;
+   
+ 
+}
+
+#feature3 {
+    background: tomato;
+  
+}
+
+#sign-up {
+    background-color: lightblue;
+}
+#content {
+    background-color:rgb(50, 138, 138);
+}
+#empty{
+    background-color: blue;
+}
